@@ -17,6 +17,7 @@ local Queues = Sequencer.new()
 ## ⚙️ How It Works
 
 * Queues run **from top to bottom**
+* Loop will break if you execute again.
 * If a queue function returns `true`, the system will:
 
   * Stop in that queue
