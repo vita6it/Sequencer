@@ -19,7 +19,7 @@ local Queues = Sequencer.new()
 * Queues run **from top to bottom**
 * If a queue function returns `true`, the system will:
 
-  * Stop execution
+  * Stop in that queue
   * Restart from the first queue
 * If it returns `false` or nothing:
 
